@@ -5,11 +5,33 @@ Chu Han^, Qiang Wen^, Shengfeng He*, Qianshu Zhu, Yinjie Tan, Guoqiang Han, and 
 ACM Transactions on Graphics (SIGGRAPH Asia 2018 issue), 2018.  
 ## ![Our teaser](./teaser/teaser.png)
 ## Requirement
-- Python 3.5
+- Python 3.6.13
 - PIL
 - Numpy
-- Pytorch 0.4.0
+- Pytorch 0.4.1
 - Ubuntu 16.04 LTS
+- pip install torch==0.4.1 -f https://download.pytorch.org/whl/torch
+- torchvision 0.2.1
+
+- Package           Version
+----------------- ---------
+certifi           2021.5.30
+cffi              1.14.6
+dataclasses       0.8
+mkl-fft           1.0.6
+mkl-random        1.0.1
+numpy             1.15.4
+Pillow            8.4.0
+pip               21.2.2
+pycparser         2.21
+setuptools        58.0.4
+six               1.16.0
+TBB               0.2
+torch             0.4.1
+torchvision       0.2.1
+typing_extensions 4.1.1
+wheel             0.37.1
+
 ## Dataset
 ### Training Dataset
 Create the folders `trainA` and `trainB` in the directory `./samples/`. Note that `trainA` and `trainB` contain the clip arts to be pixelized and pixel arts to be depixelized respectively.
